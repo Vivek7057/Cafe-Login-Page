@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cafe Coffe Day</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Pacifico&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login-box row g-0">
+
+    <!-- left side -->
+    <div class="col-md-5 left-side text-white text-center d-flex flex-column justify-content-between align-items-center p-4">
+
+      <svg viewBox="0 0 300 300" width="280">
+        <!-- steam -->
+        <path d="M110 90 q-15 -25 0 -45 M150 90 q-15 -25 0 -45 M190 90 q-15 -25 0 -45"
+              fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+        <!-- saucer -->
+        <ellipse cx="150" cy="260" rx="110" ry="18" fill="#82a79a"/>
+        <ellipse cx="150" cy="252" rx="105" ry="14" fill="#f6e9d7"/>
+        <!-- handle -->
+        <path d="M222 140 q50 0 40 40 q-8 25 -45 22" fill="none" stroke="#f6e9d7" stroke-width="14"/>
+        <!-- cup -->
+        <path d="M80 110 h140 q0 140 -70 140 q-70 0 -70 -140z" fill="#f6e9d7"/>
+        <rect x="82" y="150" width="136" height="30" fill="#e9627a"/>
+        <ellipse cx="150" cy="110" rx="70" ry="15" fill="#6b3f2e"/>
+        <!-- beans -->
+        <ellipse cx="45" cy="255" rx="14" ry="9" fill="#6b3f2e" transform="rotate(-25 45 255)"/>
+        <ellipse cx="260" cy="262" rx="14" ry="9" fill="#6b3f2e" transform="rotate(30 260 262)"/>
+        <!-- leaves -->
+        <ellipse cx="45" cy="70" rx="10" ry="25" fill="#3f5a38" transform="rotate(-40 45 70)"/>
+        <ellipse cx="260" cy="70" rx="10" ry="25" fill="#3f5a38" transform="rotate(40 260 70)"/>
+      </svg>
+
+      <div>
+        <h3>Cafe Coffee Day</h3>
+        <p>A Lot Can Happen Over Coffee</p>
+        <div class="dots">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- right side -->
+    <div class="col-md-7 d-flex justify-content-center align-items-center p-4">
+      <form class="login-form">
+
+        <h1 class="logo text-center">Cafe Coffe Day</h1>
+        <h4 class="text-center text-secondary fw-normal">Welcome to CoffeeWorld!</h4>
+
+        <label for="email">Users name or Email</label>
+        <input type="text" id="email" class="form-control" value="Vivek Jadhav">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" class="form-control" value="12345678">
+
+        <div class="text-end">
+          <a href="#" class="small green">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn btn-secondary rounded-pill d-block mx-auto px-5">Sign in</button>
+
+        <p class="or text-center text-secondary">or</p>
+
+        <p class="text-center">
+          <a href="#" class="google text-dark text-decoration-none">
+            <img src="https://www.google.com/favicon.ico" width="20" alt=""> Sign in with Google
+          </a>
+        </p>
+
+        <p class="text-center small">New User? <a href="#" class="green">Create Account</a></p>
+
+      </form>
+    </div>
+
+  </div>
+
+</body>
+</html>
